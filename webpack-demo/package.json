@@ -1,0 +1,17 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "private:表示这个包文件是私人的，不会被发布到npnm线上去 mian:指定了加载的入口文件 script:指定了运行脚本命令的npm命令行缩写，比比如start指定了运行npm run start时，所要执行的命令。 license:你应该对你的包指定一个license来让用户知道他们的使用权利和和任何限制。scripts下可以配置简化webpack的相关操作，默认打包为npx webapck现在可以为npm run bundle",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "author": "web-du",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^3.0.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
+}
